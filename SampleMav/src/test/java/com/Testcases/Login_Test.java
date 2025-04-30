@@ -53,11 +53,9 @@ public class Login_Test {
 		
 	}
 	
-	//@AfterTest
-	//void CloseBrowser() {
+	@AfterTest
+	void CloseBrowser() {
 
-	//	driver.close();
-//
-	//}
+		driver.close();}
 
 }
